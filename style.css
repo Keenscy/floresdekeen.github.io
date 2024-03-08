@@ -984,4 +984,11 @@ body {
 .not-loaded * {
   animation-play-state: paused !important;
 }
+.text-container {
+    position: absolute;
+    top: 50px; /* Ajusta la posición vertical según sea necesario */
+    left: 50%; /* Centra horizontalmente */
+    transform: translateX(-50%); /* Centra horizontalmente */
+    z-index: 1; /* Asegura que esté encima de la animación */
+}
 /*# sourceMappingURL=style.css.map */
