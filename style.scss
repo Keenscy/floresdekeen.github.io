@@ -1356,23 +1356,6 @@ body {
     transform: scale(0);
   }
 }
-.texto-arriba {
-  color: white;
-  position: absolute;
-  top: 10px; /* ajusta la posición vertical según necesites */
-  left: 50%;
-  transform: translateX(-50%);
-  font-size: 24px; /* ajusta el tamaño de la fuente según necesites */
-}
-
-.texto-abajo {
-  color: white;
-  position: absolute;
-  bottom: 10px; /* ajusta la posición vertical según necesites */
-  left: 50%;
-  transform: translateX(-50%);
-  font-size: 24px; /* ajusta el tamaño de la fuente según necesites */
-}
 
 .not-loaded * {
   animation-play-state: paused !important;
