@@ -984,10 +984,50 @@ body {
 .not-loaded * {
   animation-play-state: paused !important;
 }
-.flowers {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-100%, -100%);
+.flower__grass {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    z-index: -1;
+}
+
+.flower__grass__leaf {
+    position: absolute;
+    z-index: 0;
+}
+
+.flower__grass__leaf--1 {
+    top: 5vh;
+    left: 10vw;
+}
+
+.flower__grass__leaf--2 {
+    top: 10vh;
+    left: 20vw;
+}
+
+/* Repite para las demás hojas... */
+
+.flower__g-right,
+.flower__g-front,
+.flower__g-fr {
+    position: absolute;
+    z-index: 0;
+}
+
+/* Añade aquí las clases para las demás partes de la flor */
+
+.long-g {
+    position: absolute;
+    z-index: 0;
+}
+
+.grass {
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+    height: 20vh;
+    background-color: green;
 }
 /*# sourceMappingURL=style.css.map */
