@@ -985,12 +985,4 @@ body {
   animation-play-state: paused !important;
 }
 
-.text-container {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    text-align: center;
-    z-index: 1000; /* Asegúrate de que el índice z sea alto para que esté por encima de las animaciones de las flores */
-}
 /*# sourceMappingURL=style.css.map */
